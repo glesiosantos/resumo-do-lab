@@ -1,2 +1,2 @@
 # resumo-do-lab
-Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
+Apresentando como podemos alterar o idioma na plataforma e como identificar os serviços por categorias
