@@ -1,0 +1,31 @@
+# Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure
+
+## Introdução
+O dimensionamento e configuração de recursos em Máquinas Virtuais (VMs) na Azure são essenciais para garantir desempenho, escalabilidade e otimização de custos. A Azure oferece diversas opções para ajustar as configurações das VMs de acordo com as necessidades da aplicação.
+
+## Escolhendo o Tamanho da Máquina Virtual
+A escolha do tamanho da VM depende de fatores como CPU, memória, armazenamento e carga de trabalho esperada. A Azure disponibiliza diferentes séries de VMs, incluindo:
+- **Série B:** Para cargas de trabalho leves e intermitentes.
+- **Série D e E:** Para aplicações de uso geral e cargas de trabalho exigentes.
+- **Série F:** Para aplicações que necessitam de alto desempenho de CPU.
+- **Série N:** Para workloads que exigem GPUs.
+
+## Ajustando Recursos de uma VM
+Os recursos de uma VM podem ser ajustados para melhorar o desempenho sem precisar criar uma nova instância. Algumas opções incluem:
+- **Redimensionamento da VM:** Alteração do tamanho da VM para aumentar ou diminuir os recursos.
+- **Adição de discos gerenciados:** Para expandir a capacidade de armazenamento.
+- **Ajuste de rede:** Configuração de grupos de segurança e balanceamento de carga.
+
+## Dimensionamento Automático (Autoscale)
+O dimensionamento automático permite que as VMs aumentem ou diminuam de acordo com a demanda. Isso pode ser configurado por meio de:
+- **Escalas de máquinas virtuais (VM Scale Sets)**: Criação e gerenciamento de várias VMs de forma automática.
+- **Configuração de regras de escalonamento:** Baseadas em métricas como uso de CPU e memória.
+
+## Otimização de Custos
+Para reduzir custos sem comprometer o desempenho, algumas práticas recomendadas incluem:
+- **Uso de VMs reservadas:** Economia ao comprometer-se com um período maior de uso.
+- **Spot VMs:** Opção de baixo custo para workloads tolerantes a falhas.
+- **Monitoramento com Azure Monitor:** Para identificar gargalos e otimizar o uso de recursos.
+
+## Conclusão
+Configurar corretamente os recursos e o dimensionamento de VMs na Azure é crucial para garantir eficiência operacional e otimização de custos. Utilizar as ferramentas de escalonamento e monitoramento da plataforma permite que as aplicações se adaptem dinamicamente às demandas do negócio.
